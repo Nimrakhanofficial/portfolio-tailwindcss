@@ -3,11 +3,9 @@ import About from "@/components/about";
 import Contact from "@/components/contact";
 import Hero from "@/components/Hero";
 import Projects from "@/components/Projects";
-import Image from "next/image";
-import AOS from "aos"
-import "aos/dist/aos.css"
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { useEffect } from "react";
-import skills from "@/components/Skills";
 import Skills from "@/components/Skills";
 
 export default function Home() {
@@ -25,11 +23,12 @@ export default function Home() {
 
   return (
     <main>
+    
       <Hero />
       <Projects />
       <Contact />
       <About />
-      <Skills />
+     <Skills />
     </main>
   );
 }
